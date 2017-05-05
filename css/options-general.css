@@ -1,0 +1,45 @@
+a.wce-update-category{
+	position: relative;
+}
+a.wce-update-category .btn-text{
+	-webkit-transition: all 0.25s ease;
+	   -moz-transition: all 0.25s ease;
+			transition: all 0.25s ease;
+}
+a.wce-update-category .btn-loader{
+	position: absolute;
+	width: 40px;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.25s ease;
+	   -moz-transition: all 0.25s ease;
+			transition: all 0.25s ease;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	   -moz-transform: translateX(-50%) translateY(-50%);
+			transform: translateX(-50%) translateY(-50%);
+}
+a.wce-update-category .btn-loader img{
+	width: 100%;
+}
+a.wce-update-category.active .btn-text{
+	opacity: 0;
+	visibility: hidden;
+}
+a.wce-update-category.active .btn-loader{
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Category Update Message */
+.wce-update-wrap pre{
+	border-left: 3px solid #7ad03a;
+	padding-left: 20px;
+	margin-bottom: 0px;
+	display: none;
+}
+.wce-update-wrap pre.error{
+	border-left: 3px solid #dd3d36;
+}

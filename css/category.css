@@ -1,0 +1,9 @@
+body.taxonomy-category form#addtag{
+	display: none;
+}
+body.taxonomy-category #col-left{
+	display: none;
+}
+body.taxonomy-category #col-right{
+	width: 100%;
+}
