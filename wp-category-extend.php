@@ -57,8 +57,7 @@ class WP_Category_Extend{
 	 */
 	public function wce_cron_schedules( $schedules ) {
 		$intervals['wce_schedule'] = array( 
-										// 'interval' => 60*30,
-										'interval' => 60,
+										'interval' => 60*30,
 										'display' => esc_html__('WCE Schedule', 'wce')
 									);
 		$schedules = array_merge( $intervals, $schedules);
