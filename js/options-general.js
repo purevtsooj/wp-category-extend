@@ -3,6 +3,9 @@
 
 	$(document).ready(function(){
 
+		/*
+			Update category button
+		*/
 		$('.wce-update-category').on('click', function(e){
 			var _btn = $(this);
 
